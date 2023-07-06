@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IQ Tool</title>
+	<link rel="icon" type="image/png" href="https://zeq.netlify.app/images/favicon.png">
+	<link href="https://zeq.netlify.app/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="https://zeq.netlify.app/css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<link href="https://zeq.netlify.app/css/style.css" rel="stylesheet" type="text/css" media="all">
+	<script type="text/javascript" src="https://zeq.netlify.app/js/jquery.js"></script>
+	<script type="text/javascript" src="https://zeq.netlify.app/js/custom_social5.js"></script>
+	<!-- <script type="text/javascript" src="http://127.0.0.1/instaquoteseo/js/custom.js"></script> -->
+
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127687489-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-127687489-1');
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1880249888688838');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=1880249888688838&amp;ev=PageView&amp;noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+	<style>
+		@media (min-width:767px) {
+			body {
+				background-size: 100% 600px !important
+			}
+		}
+
+		@media (max-width:766.98px) {
+			body {
+				background-size: 100% 800px !important
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="w1">
+			<div class="w2">
+				<div class="main" style="margin-top:40px;">
+					<form action="#" method="post" class="form-area">
+						<div class="step step-1 active">
+							<h2 class="step-head">Instant Quote Tool</h2>
+							<p>Know instantly how much you should be paying for SEO based on a complex algorythm of over 100 point
+								checks. Knowledge, is power.</p>
+							<div class="input-wrap">
+								<input type="text" placeholder="Enter your keywords" class="form-control keyword">
+								<span class="required small">required</span>
+							</div>
+							<p class="text">"Keyword Phrase" is the term or phrase you want to rank #1 in Google for when your
+								customers search</p>
+							<div class="links-wrap">
+								<button type="button" class="btn-next" data-step="1">Next</button>
+							</div>
+						</div>
+						<div class="step step-2" style="display: none;">
+							<h2 class="step-head">Enter Your Website URL</h2>
+							<div class="input-wrap">
+								<input type="text" placeholder="Eg. http:// example.com" class="form-control url">
+								<span class="required small">required</span>
+							</div>
+							<p class="text">Our tool pulls data including: Registration date, current backlink profile, current
+								rankings & more to provide the most accurate quote possible</p>
+							<div class="links-wrap">
+								<button type="button" class="btn-prev" data-step="2">
+									< &nbsp;&nbsp;previous</button>
+										<button type="button" class="btn-next" id="btn_calculate" data-step="2">Next</button>
+							</div>
+						</div>
+						<div class="step step-3" style="display: none;">
+							<h2 class="step-head"><span id="amt"><span></h2>
+							<p class="text">We will be back to you with a formal quote.</p>
+							<div class="links-wrap">
+								<!--<button type="button" class="btn-prev" data-step="6">< &nbsp;&nbsp;previous</button>-->
+								<button type="button" class="new-project btn-next" data-step="3">New Quote</button>
+							</div>
+						</div>
+					</form>
+					<ul class="steps-list">
+						<li data-step="1">
+							<span class="circle">1</span>
+							<span class="text">step</span>
+						</li>
+						<li data-step="2">
+							<span class="circle">2</span>
+							<span class="text">step</span>
+						</li>
+						<li data-step="3">
+							<span class="circle">3</span>
+							<span class="text">step</span>
+						</li>
+						<!-- <li data-step="4">
+							<span class="circle">4</span>
+							<span class="text">step</span>
+						</li>
+						<li data-step="5">
+							<span class="circle">5</span>
+							<span class="text">step</span>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<ul class="logo-list">
+						<li><img src="https://zeq.netlify.app/images/logo1.png" alt="logo1"></li>
+						<li><img src="https://zeq.netlify.app/images/logo3.png" alt="logo2"></li>
+						<li><img src="https://zeq.netlify.app/images/logo4.png" alt="logo3"></li>
+						<li><img src="https://zeq.netlify.app/images/logo2.png" alt="logo4"></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
+<script>
+	var endpoint = 'http://api.zeq.io/';
+	// var endpoint = 'http://127.0.0.1:8000/';
+	$(".btn-next").on("click", async function (e) {
+
+		e.preventDefault();
+		var keyword = $(".keyword").val();
+		var domain = $(".url").val();
+		var name = $(".name").val();
+		var email = $(".email").val();
+		var phone = $(".phone").val();
+		var paying = $(".paying").is(':checked');
+		var partner = $(".partner").is(':checked');
+		var current_step = $(this).data("step");
+		var next_step = current_step + 1;
+		var input_entry = $(this).closest(".step").find("input[type=text]").val();
+		if (input_entry) {
+			$(".required").hide();
+			$("input[type=text]").removeClass("error");
+			if (input_entry.length >= 3) {
+				$(".steps-list li").each(function () {
+					var list_data = $(this).data("step");
+					if (current_step == list_data) {
+						$(this).addClass("completed");
+						if (current_step === 2) {
+							if (validateUrl()) {
+								$(this).addClass("completed");
+							}
+						}
+						if (current_step === 3) {
+							if (validateEmail()) {
+								$(this).addClass("completed");
+							}
+						}
+						$(this).addClass("completed");
+					}
+				});
+				if (current_step === 2) {
+					if (validateUrl(input_entry)) {
+						$("#btn_calculate").attr('disabled', true);
+						$("#btn_calculate").html('Calculating ...');
+						var search_volume, domain_age, domain_rating, instant_quote, competition;
+
+						const doAjax = (data) => {
+
+							return new Promise(function (resolve, reject) {
+								$.ajax(data)
+									.then((res) => resolve(res))
+									.fail((error) => reject(error))
+							});
+						}
+
+						doAjax({
+							type: 'GET',
+							contentType: "application/json",
+							url: endpoint + "getsearchvolume?keyword=" + keyword,
+						})
+							.then(res => {
+								search_volume = res.search_volume;
+								competition = res.competition;
+								doAjax({
+									type: 'GET',
+									contentType: "application/json",
+									url: endpoint + "getdomainage?domain=" + domain,
+								})
+									.then(res => {
+
+										domain_age = res;
+										doAjax({
+											type: 'GET',
+											contentType: "application/json",
+											url: endpoint + "getdomainrating?domain=" + domain,
+										})
+											.then(res => {
+												domain_rating = res;
+
+												doAjax({
+													type: 'GET',
+													contentType: "application/json",
+													url: endpoint + "getinstantquote?search_volume=" + search_volume + "&competition=" + competition + "&domain_age=" + domain_age + "&domain_rating=" + domain_rating + "&search_keyword=" + keyword + "&search_domain=" + domain,
+												})
+													.then(res => {
+														instant_quote = res;
+														console.log("instant_quote:", instant_quote)
+
+														$("#btn_calculate").removeAttr('disabled');
+														$("#btn_calculate").html('Next');
+
+														$(this).closest(".step-" + current_step).removeClass("active");
+														$(this).closest(".step-" + current_step).hide();
+														$(".step-" + next_step).removeClass("fadeInRight animated active").addClass("fadeInRight animated active").show();
+
+														// if (Number(instant_quote) < 1000) {
+														// 	$("#amt").append('<br><span> $'+ instant_quote +'</span></span>');
+														// }
+														// else {
+														// 	$("#amt").append('<br><span> $ '+ instant_quote +'</span></span>');
+														// }
+														if (Number(instant_quote) < 1000) {
+															$("#amt").append('<br><span> Yes. You are qualified.</span></span>');
+														}
+														else {
+															$("#amt").append('<br><span> You need to work with an agency.</span></span>');
+														}
+
+
+													})
+											})
+									})
+							})
+					} else {
+						$(this).closest(".step").find(".required").text("invalid URL").show();
+						$(this).closest(".step").find("input[type=text]").addClass("error");
+						$(this).closest(".step").find("input[type=text]").focus();
+					}
+				} else if (current_step === 3) {
+					if (validateEmail(input_entry) && validatePhone(phone)) {
+						$("#btn_calculate").attr('disabled', true);
+						$("#btn_calculate").html('Calculating ...');
+						var search_volume, domain_age, domain_rating, instant_quote;
+
+						const doAjax = (data) => {
+
+							return new Promise(function (resolve, reject) {
+								$.ajax(data)
+									.then((res) => resolve(res))
+									.fail((error) => reject(error))
+							});
+						}
+
+						doAjax({
+							type: 'GET',
+							contentType: "application/json",
+							url: endpoint + "getsearchvolume?keyword=" + keyword,
+						})
+							.then(res => {
+								search_volume = res.search_volume;
+								competition = res.competition
+								doAjax({
+									type: 'GET',
+									contentType: "application/json",
+									url: endpoint + "getdomainage?domain=" + domain,
+								})
+									.then(res => {
+										domain_age = res;
+										doAjax({
+											type: 'GET',
+											contentType: "application/json",
+											url: endpoint + "getdomainrating?domain=" + domain,
+										})
+											.then(res => {
+												domain_rating = res;
+
+												doAjax({
+													type: 'GET',
+													contentType: "application/json",
+													url: endpoint + "getinstantquote?search_volume=" + search_volume + "&competition=" + competition + "&domain_age=" + domain_age + "&domain_rating=" + domain_rating + "&search_keyword=" + keyword + "&search_domain=" + domain,
+												})
+													.then(res => {
+														instant_quote = res;
+														console.log("instant_quote:", instant_quote)
+
+														$("#btn_calculate").removeAttr('disabled');
+														$("#btn_calculate").html('Next');
+
+														$(this).closest(".step-" + current_step).removeClass("active");
+														$(this).closest(".step-" + current_step).hide();
+														$(".step-" + next_step).removeClass("fadeInRight animated active").addClass("fadeInRight animated active").show();
+
+														if (Number(instant_quote) < 1000) {
+															$("#amt").append('<br><span> Yes. You are qualified.</span></span>');
+														}
+														else {
+															$("#amt").append('<br><span> You need to work with an agency.</span></span>');
+														}
+													})
+											})
+									})
+							})
+
+					} else {
+						if (!validateEmail(input_entry)) $(this).closest(".step").find(".required").eq(0).text("invalid email").show();
+						if (!validatePhone(phone)) $(this).closest(".step").find(".required").eq(1).text("invalid phone").show();
+						$(this).closest(".step").find("input[type=text]").addClass("error");
+						$(this).closest(".step").find("input[type=text]").focus();
+					}
+				} else {
+					$(this).closest(".step-" + current_step).hide();
+					$(this).closest(".step-" + current_step).removeClass("active");
+					$(".step-" + next_step).removeClass("fadeInRight animated active").addClass("fadeInRight animated active").show();
+					$(".step-" + next_step).find("input[type=text]").focus();
+				}
+			} else {
+				$(this).closest(".step").find(".required").text("min 3 character").show();
+				$(this).closest(".step").find("input[type=text]").addClass("error");
+				$(this).closest(".step").find("input[type=text]").focus();
+			}
+		} else {
+			$(this).closest(".step").find(".required").text("Required").show();
+			$(this).closest(".step").find("input[type=text]").addClass("error");
+			$(this).closest(".step").find("input[type=text]").focus();
+		}
+
+
+	});
+
+	$(".btn-prev").on("click", function (e) {
+		e.preventDefault();
+		var current_step = parseInt($(this).data("step"));
+		var prev_step = current_step - 1;
+		$(this).closest(".step-" + current_step).removeClass("active");
+		$(this).closest(".step-" + current_step).hide();
+		$(".step-" + prev_step).removeClass("fadeInLeft fadeInRight animated active").addClass("fadeInLeft animated active").show();
+		$(".step-" + prev_step).find("input[type=text]").focus();
+		$(".steps-list li").each(function () {
+			var list_data = $(this).data("step");
+			if (current_step == list_data) {
+				$(this).removeClass("completed");
+			}
+		});
+
+	});
+
+	$(".new-project").on("click", function (e) {
+		e.preventDefault();
+		window.location.reload();
+	});
+
+	function validatePhone(phone) {
+		var re = /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/;
+		return re.test(phone);
+	}
+</script>
